@@ -58,7 +58,7 @@ Tvým cílem je vytvořit relativně jednoduchou stránku v Reactu, která bude 
 	- součástí html-vzoru je i složka `assets`, kde jsou všechny potřebné obrázky - tuto složku zkopíruj ze vzoru do složky `src`. V komponentách se pak na jednotlivé obrázky odkazuj takto `<img src="/assets/nazev-obrazku.jpg" alt="popisek" />`
 
 2. Prozkoumej složku `src`:
-	- všimni si, že máš připravenou úplně prádnou aplikaci
+	- všimni si, že máš připravenou úplně prázdnou aplikaci
 
 3. Místo výchozího JSX kódu v komponentě App v `index.jsx` dej:
 	```jsx
