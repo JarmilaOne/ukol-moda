@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
+const title = "Šaty";
 
 const Header = () => { return (
   <>
@@ -17,6 +18,7 @@ const Dresses = () => {return (
   <>
   
   <section class="dresses">
+	  		{title}
 			<h2>Šaty</h2>
 			<div class="products">
 
