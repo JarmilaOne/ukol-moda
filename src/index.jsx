@@ -14,6 +14,11 @@ const Header = () => { return (
   )
 };
 
+const dresses = [
+	{ name: 'Červené šaty', description: 'V barvě jahod! Krátké šaty v sytě červeném odstínu Váš šatník nekompromisně nabijí energií.', price: '2290 Kč' },
+	
+];
+
 const Dresses = () => {return (
   <>
   
@@ -25,9 +30,9 @@ const Dresses = () => {return (
 				<div class="product">
 					<img class="product__image" src="/assets/red-dress.jpg" alt="Červené šaty"/>
 					<div class="product__content">
-						<h3 class="product__name">Červené šaty</h3>
-						<p class="product__description">V barvě jahod! Krátké šaty v sytě červeném odstínu Váš šatník nekompromisně nabijí energií.</p>
-						<p class="product__price">2290 Kč</p>
+						<h3 class="product__name">{dresses.product}</h3>
+						<p class="product__description">{dresses.description}</p>
+						<p class="product__price">{dresses.price}</p>
 					</div>
 				</div>
 
